@@ -43,11 +43,11 @@ const Footer = () => {
                 </div>
             </div>
             <div className="my-5">
-                <h3>Useful Links</h3>
-                <NavLink style={links} to="/about">About us</NavLink>
-                <NavLink style={links} to="/courses">Our Courses</NavLink>
-                <NavLink style={links} to="/pricing">Pricing</NavLink>
-                <NavLink style={links} to="/contact">Contact us</NavLink>
+                <h3>Categories</h3>
+                <NavLink style={links} to="/#">Development</NavLink>
+                <NavLink style={links} to="/#">Marketing</NavLink>
+                <NavLink style={links} to="/#">UI/UX Design</NavLink>
+                <NavLink style={links} to="/#">Business</NavLink>
             </div>
             <div className="my-5">
                 <h3>Useful Links</h3>

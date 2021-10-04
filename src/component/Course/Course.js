@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser, faBook, faArrowRight, faStar, faStarHalf } from '@fortawesome/free-solid-svg-icons';
+import { faUser, faBook } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
 import { Button } from 'react-bootstrap';
 import './Course.css';

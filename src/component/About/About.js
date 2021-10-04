@@ -8,7 +8,6 @@ import img2 from '../../assets/images/funfact2.png';
 import img3 from '../../assets/images/funfact3.png';
 import img4 from '../../assets/images/funfact4.png';
 import './About.css';
-import Newsletter from '../Newsletter/Newsletter';
 
 const iconStyle = {
     'fontSize': '32px',
