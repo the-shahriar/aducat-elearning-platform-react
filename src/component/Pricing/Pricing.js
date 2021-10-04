@@ -15,20 +15,17 @@ const Pricing = () => {
                                     <h3>Starter Plan</h3>
                                 </Card.Header>
                                 <Card.Body>
-                                    <Card.Title>Special title treatment</Card.Title>
+                                    <Card.Title>Just $20/month</Card.Title>
                                     <Card.Text>
-                                        <ul>
-                                            <li> With supporting text below as a natural</li>
-                                            <li> With supporting text below as a natural</li>
-                                            <li> With supporting text below as a natural</li>
-                                            <li> With supporting text below as a natural</li>
-                                            <li> With supporting text below as a natural</li>
-                                            <li> With supporting text below as a natural</li>
-                                            <li> With supporting text below as a natural</li>
-                                            <li> With supporting text below as a natural</li>
-                                            <li> With supporting text below as a natural</li>
-                                            <li> With supporting text below as a natural</li>
-                                        </ul>
+
+                                        <p>Upto 2 Course</p>
+                                        <p>2 Device Login in 1 Account</p>
+                                        <p>Unlimited Download</p>
+                                        <p>No Certification</p>
+                                        <p>Upto 2 Course</p>
+                                        <p>2 Device Login in 1 Account</p>
+                                        <p>Unlimited Download</p>
+                                        <p>No Certification</p>
                                     </Card.Text>
                                     <Button className="px-5" variant="secondary">Request Now</Button>
                                 </Card.Body>
@@ -40,20 +37,16 @@ const Pricing = () => {
                                     <h3>Basic Plan</h3>
                                 </Card.Header>
                                 <Card.Body>
-                                    <Card.Title>Special title treatment</Card.Title>
+                                    <Card.Title>Just $50/month</Card.Title>
                                     <Card.Text>
-                                        <ul>
-                                            <li> With supporting text below as a natural</li>
-                                            <li> With supporting text below as a natural</li>
-                                            <li> With supporting text below as a natural</li>
-                                            <li> With supporting text below as a natural</li>
-                                            <li> With supporting text below as a natural</li>
-                                            <li> With supporting text below as a natural</li>
-                                            <li> With supporting text below as a natural</li>
-                                            <li> With supporting text below as a natural</li>
-                                            <li> With supporting text below as a natural</li>
-                                            <li> With supporting text below as a natural</li>
-                                        </ul>
+                                        <p>Upto 2 Course</p>
+                                        <p>2 Device Login in 1 Account</p>
+                                        <p>Unlimited Download</p>
+                                        <p>No Certification</p>
+                                        <p>Upto 2 Course</p>
+                                        <p>2 Device Login in 1 Account</p>
+                                        <p>Unlimited Download</p>
+                                        <p>Certification Available</p>
                                     </Card.Text>
                                     <Button className="px-5" variant="secondary">Request Now</Button>
                                 </Card.Body>
@@ -65,20 +58,16 @@ const Pricing = () => {
                                     <h3>Advance Plan</h3>
                                 </Card.Header>
                                 <Card.Body>
-                                    <Card.Title>Special title treatment</Card.Title>
+                                    <Card.Title>Just $100/month</Card.Title>
                                     <Card.Text>
-                                        <ul>
-                                            <li> With supporting text below as a natural</li>
-                                            <li> With supporting text below as a natural</li>
-                                            <li> With supporting text below as a natural</li>
-                                            <li> With supporting text below as a natural</li>
-                                            <li> With supporting text below as a natural</li>
-                                            <li> With supporting text below as a natural</li>
-                                            <li> With supporting text below as a natural</li>
-                                            <li> With supporting text below as a natural</li>
-                                            <li> With supporting text below as a natural</li>
-                                            <li> With supporting text below as a natural</li>
-                                        </ul>
+                                        <p>Upto 2 Course</p>
+                                        <p>2 Device Login in 1 Account</p>
+                                        <p>Unlimited Download</p>
+                                        <p>No Certification</p>
+                                        <p>Upto 2 Course</p>
+                                        <p>2 Device Login in 1 Account</p>
+                                        <p>Unlimited Download</p>
+                                        <p>Certification Available</p>
                                     </Card.Text>
                                     <Button className="px-5" variant="secondary">Request Now</Button>
                                 </Card.Body>
@@ -88,7 +77,7 @@ const Pricing = () => {
                 </Container>
             </div>
             <Newsletter></Newsletter>
-        </div>
+        </div >
     );
 };
 
