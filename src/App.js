@@ -4,6 +4,10 @@ import Header from './component/Header/Header';
 import NotFound from './component/NotFound/NotFound';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import About from './component/About/About';
+import Courses from './component/Courses/Courses';
+import Pricing from './component/Pricing/Pricing';
+import Contact from './component/Contact/Contact';
 
 function App() {
   return (
@@ -16,6 +20,18 @@ function App() {
           </Route>
           <Route path="/home">
             <Home></Home>
+          </Route>
+          <Route path="/about">
+            <About></About>
+          </Route>
+          <Route path="/courses">
+            <Courses></Courses>
+          </Route>
+          <Route path="/pricing">
+            <Pricing></Pricing>
+          </Route>
+          <Route path="/contact">
+            <Contact></Contact>
           </Route>
           <Route path="*">
             <NotFound></NotFound>

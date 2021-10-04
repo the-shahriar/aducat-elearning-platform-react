@@ -1,0 +1,9 @@
+.not-found{
+    height: 100vh;
+    padding-top: 70px;
+}
+
+.login-btn a, .login-btn a:hover{
+    color: white;
+    text-decoration: none;
+}

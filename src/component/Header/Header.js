@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Nav, Navbar, Button } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
-import logo from '../../images/logo/logo.png';
+import logo from '../../assets/logo/logo.png';
 import './Header.css';
 
 const backGround = {
