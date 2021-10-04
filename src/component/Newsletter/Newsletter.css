@@ -1,0 +1,31 @@
+.newsletter{
+    position: relative;
+    height: 40vh;
+}
+
+.newsletter h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.newsletter input {
+    width: 98%;
+    padding: 10px 5px;
+    border: 2px solid white;
+}
+.newsletter button {
+    padding: 10px 5px;
+    background-color: #00938D;
+    color: white;
+    position: absolute;
+    left: 66%;
+    border-radius: 10px;
+}
+
+.input-field{
+    background: white;
+    border-radius: 10%;
+    width: 45%;
+    margin: auto;
+    padding: 5px;
+}

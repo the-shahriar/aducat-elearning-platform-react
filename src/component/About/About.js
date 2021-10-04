@@ -16,7 +16,8 @@ const iconStyle = {
 
 const background = {
     'backgroundColor': '#E5F0EB',
-    'margin': '40px'
+    'margin': '40px',
+    'border': 'none'
 }
 
 
@@ -25,6 +26,7 @@ const About = () => {
         <div className="my-5">
             <div className="my-5 pt-5 text-center side-div">
                 <h2 className="my-5">Supreme Work Flows</h2>
+                <hr className="line" />
                 <Container className="pb-5 pt-3">
                     <Row>
                         <Col sm className="p-5">
@@ -62,7 +64,7 @@ const About = () => {
                 </div>
             </Stack >
 
-            <div className="text-center my-5 py-5" style={background}>
+            <div className="text-center my-5 p-5" style={background}>
                 <Container>
                     <Row>
                         <Col className="bg-white py-4 me-5 about-col">

@@ -1,0 +1,13 @@
+.hero-div {
+    line-height: 30px;
+}
+
+.hero-div h1{
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.hero-img{
+    background-image: url(../../assets/images//ellipse9.png);
+    background-repeat: no-repeat;
+}
