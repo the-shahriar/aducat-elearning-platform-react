@@ -1,9 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
 import Home from './component/Home/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Header from './component/Header/Header';
 import NotFound from './component/NotFound/NotFound';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
 
 function App() {
   return (

@@ -1,0 +1,15 @@
+.navbar-nav a{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+.navbar-nav a:hover{
+    color: #FD661F;
+}
+
+.login-btn{
+    background-color: #00938D!important;
+}
+.login-btn:hover{
+    background-color: black!important;
+}
