@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1,
+        "title": "Become a professional designer be with passion & dignity",
+        "price": 170,
+        "category": "Development",
+        "enrolled": 237,
+        "lesson": 20,
+        "rating": 4.6,
+        "totalRated": 4537,
+        "image": "./images/courses1.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Java programming A-Z fully classes with full task",
+        "price": 190,
+        "category": "UI/UX Design",
+        "enrolled": 259,
+        "lesson": 24,
+        "rating": 4.9,
+        "totalRated": 12121,
+        "image": "./images/courses2.jpg"
+    },
+    {
+        "id": 3,
+        "title": "You will fell in love with this mustly if you have desire",
+        "price": 410,
+        "category": "Art & Cart",
+        "enrolled": 563,
+        "lesson": 20,
+        "rating": 4.3,
+        "totalRated": 8460,
+        "image": "./images/courses3.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Be passionated with your regularly exercise and stay fit",
+        "price": 380,
+        "category": "Development",
+        "enrolled": 387,
+        "lesson": 30,
+        "rating": 4.5,
+        "totalRated": 3981,
+        "image": "./images/courses4.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Grow your business by mastered in some technique",
+        "price": 420,
+        "category": "Business",
+        "enrolled": 512,
+        "lesson": 34,
+        "rating": 4.2,
+        "totalRated": 9545,
+        "image": "./images/courses5.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Top 10 tips to grow up audience to progress business",
+        "price": 570,
+        "category": "Marketing",
+        "enrolled": 537,
+        "lesson": 74,
+        "rating": 4.8,
+        "totalRated": 16254,
+        "image": "./images/courses6.jpg"
+    }
+]

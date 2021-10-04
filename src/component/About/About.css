@@ -1,4 +1,4 @@
-.col-sm:hover{
+.why-us:hover{
     background: white;
 
 }
@@ -30,4 +30,8 @@
     border: 2px solid black;
     margin-left: auto;
     margin-right: auto;
+}
+
+.side-img img{
+    margin-left: 40px;
 }

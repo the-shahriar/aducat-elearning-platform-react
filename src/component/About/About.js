@@ -2,12 +2,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch, faCalendarMinus, faMedal } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
 import { Col, Container, Row, Stack } from 'react-bootstrap';
-import img from '../../assets/images/404.png';
+import img from '../../assets/images/hero-men3.png';
 import img1 from '../../assets/images/funfact1.png';
 import img2 from '../../assets/images/funfact2.png';
 import img3 from '../../assets/images/funfact3.png';
 import img4 from '../../assets/images/funfact4.png';
 import './About.css';
+import Newsletter from '../Newsletter/Newsletter';
 
 const iconStyle = {
     'fontSize': '32px',
@@ -29,21 +30,21 @@ const About = () => {
                 <hr className="line" />
                 <Container className="pb-5 pt-3">
                     <Row>
-                        <Col sm className="p-5">
+                        <Col sm className="p-5 why-us">
                             <button className="buttonStyle">
                                 <FontAwesomeIcon style={iconStyle} icon={faSearch} />
                             </button>
                             <h2 className="mt-4">Find Your Course</h2>
                             <p className="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum laborum eius ratione facilis beatae dolore iure. Saepe dolore molestiae veniam.</p>
                         </Col>
-                        <Col sm className="p-5">
+                        <Col sm className="p-5 why-us">
                             <button className="buttonStyle">
                                 <FontAwesomeIcon style={iconStyle} icon={faCalendarMinus} />
                             </button>
                             <h2 className="mt-4">Book Your Seat</h2>
                             <p className="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore praesentium, perspiciatis quae fugiat ipsam repellat facilis laudantium harum ipsum.</p>
                         </Col>
-                        <Col sm className="p-5">
+                        <Col sm className="p-5 why-us">
                             <button className="buttonStyle">
                                 <FontAwesomeIcon style={iconStyle} icon={faMedal} />
                             </button>
@@ -55,10 +56,10 @@ const About = () => {
             </div>
 
             <Stack direction="horizontal" className="m-5" gap={5}>
-                <div>
+                <div className="w-50 side-img">
                     <img src={img} alt="" />
                 </div>
-                <div className="side-div">
+                <div className="w-50 side-div">
                     <h2>We Make Your Learning <br /> Through Awesome</h2>
                     <p className="mt-4 w-75">Become the dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet.</p>
                 </div>
@@ -90,7 +91,6 @@ const About = () => {
                     </Row>
                 </Container>
             </div>
-
         </div>
     );
 };

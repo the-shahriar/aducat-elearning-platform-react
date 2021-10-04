@@ -23,7 +23,7 @@ const Footer = () => {
     return (
         <Stack direction="horizontal" className="mx-auto justify-content-evenly" style={backGround} gap={4}>
             <div className="my-5">
-                <img className="mb-3" src={logo} style={{ 'height': '60px' }} alt="logo" />
+                <img className="mb-3" src={logo} style={{ 'height': '50px', 'marginLeft': '-5px' }} alt="logo" />
                 <p>(+75) 36 6552 9564</p>
                 <p>contact@domain.com</p>
                 <p>Washington, United State</p>
