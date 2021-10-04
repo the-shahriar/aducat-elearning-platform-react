@@ -1,0 +1,12 @@
+.nav-link{
+    display: inline!important;
+    font-size: 18px;
+    margin-left: -15px;
+    background: white;
+    border-radius: 15px;
+    margin-right: 24px;
+}
+.nav-link:hover, .text-dark:hover{
+    background: #00938D;
+    color: white!important;
+}

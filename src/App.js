@@ -1,13 +1,14 @@
-import Home from './component/Home/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Home from './component/Home/Home';
 import Header from './component/Header/Header';
 import NotFound from './component/NotFound/NotFound';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
 import About from './component/About/About';
 import Courses from './component/Courses/Courses';
 import Pricing from './component/Pricing/Pricing';
 import Contact from './component/Contact/Contact';
+import Footer from './component/Footer/Footer';
+import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
             <NotFound></NotFound>
           </Route>
         </Switch>
+        <Footer></Footer>
       </Router>
     </div>
   );

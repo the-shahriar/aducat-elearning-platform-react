@@ -5,7 +5,7 @@ import logo from '../../assets/logo/logo.png';
 import './Header.css';
 
 const backGround = {
-    'backgroundColor': '#EAF1ED'
+    'backgroundColor': '#F8F7F3'
 }
 
 const Header = () => {
