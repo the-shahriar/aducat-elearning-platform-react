@@ -14,7 +14,8 @@ const links = {
     'textDecoration': 'none',
     'color': 'black',
     'display': 'block',
-    'fontSize': '18px'
+    'fontSize': '18px',
+    'lineHeight': '46px'
 }
 
 
@@ -41,14 +42,7 @@ const Footer = () => {
                     </Nav.Link>
                 </div>
             </div>
-            <div className="mb-5">
-                <h3>Useful Links</h3>
-                <NavLink style={links} to="/about">About us</NavLink>
-                <NavLink style={links} to="/courses">Our Courses</NavLink>
-                <NavLink style={links} to="/pricing">Pricing</NavLink>
-                <NavLink style={links} to="/contact">Contact us</NavLink>
-            </div>
-            <div className="mb-5">
+            <div className="my-5">
                 <h3>Useful Links</h3>
                 <NavLink style={links} to="/about">About us</NavLink>
                 <NavLink style={links} to="/courses">Our Courses</NavLink>
@@ -56,7 +50,14 @@ const Footer = () => {
                 <NavLink style={links} to="/contact">Contact us</NavLink>
             </div>
             <div className="my-5">
-                <h3 className="mt-4">Send Message to us</h3>
+                <h3>Useful Links</h3>
+                <NavLink style={links} to="/about">About us</NavLink>
+                <NavLink style={links} to="/courses">Our Courses</NavLink>
+                <NavLink style={links} to="/pricing">Pricing</NavLink>
+                <NavLink style={links} to="/contact">Contact us</NavLink>
+            </div>
+            <div className="my-5">
+                <h3 className="mt-3">Send Message to us</h3>
                 <Form>
                     <Form.Group className="mb-2" controlId="formBasicPassword">
                         <Form.Control type="email" placeholder="Email" />
